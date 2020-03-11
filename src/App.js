@@ -5,13 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="app-header">
         <div className="app-title">ANGLERS CORNER</div>
-        <div>Out for Trout</div>
+        <div className="app-description">Out-for-Trout</div>
       </header>
-      <form>
-        <button type="button">About</button>
-        <button type="button">Contact</button>
+      <form className="nav">
+        <button className="nav-btn" type="button">About</button>
+        <button className="nav-btn" type="button">Contact</button>
       </form>
     </div>
   );
