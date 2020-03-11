@@ -2,23 +2,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: #998871;
   min-height: 100vh;
+  min-width: 100%;
 }
 
 .app-header {
+  width: 80%;
+  margin: 20px 0px;
+}
+
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
-  border: 10px solid white;
+  border: 8px solid white;
   background-image: url('./images/trout_four.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: 100% 100vh;
 }
 
 .app-title {
   padding: 10px;
   color: white;
+  font-size: 25px;
 }
 
 .app-description {
@@ -29,7 +38,6 @@
 .nav {
   display: flex;
   justify-content: center;
-  width: 80%;
   background-color: #504741;
 }
 
@@ -37,4 +45,9 @@
   background-color: #504741;
   border: none;
   color: white;
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color: #504741;
 }
