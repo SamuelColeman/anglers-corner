@@ -65,6 +65,10 @@
 .articles {
   width: 80%;
   margin: 20px 0px;
+}
+
+.article-section {
+  margin: 20px 0px;
   background-color: white;
 }
 
@@ -92,4 +96,5 @@
 
 .article-img {
   padding: 25px;
+  max-width: 275px;
 }
