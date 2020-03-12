@@ -17,9 +17,15 @@ function App() {
       </header>
       <body className="articles">
         <div className="article-section">
-          <div className="article-title">Article Title</div>
+          <div className="article-title">Brown Trout</div>
           <div className="article-date">Posted on March 12, 2020 by Sam Coleman</div>
           <img className="article-img" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQph8v3McYsk0ixTCBG6WL7SZDCXEue0ePDGLhsdzMM4luqvJbq'} />
+          <div className="article-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div className="article-section">
+          <div className="article-title">Rainbow Trout</div>
+          <div className="article-date">Posted on March 12, 2020 by Sam Coleman</div>
+          <img className="article-img" src={'https://tfs-spaces.sfo2.digitaloceanspaces.com/theflyshop/uploads/2017/10/RainbowTrout_LandingPage.jpg'} />
           <div className="article-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </div>
       </body>
