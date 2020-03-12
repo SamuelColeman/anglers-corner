@@ -49,6 +49,7 @@
   border: none;
   color: #CBC8C6;
   font-size: 12px;
+  padding: 15px;
 }
 
 .nav-btn:hover {
@@ -59,4 +60,36 @@
 
 #nav-btn {
   border-right: 1px solid #302B27;
+}
+
+.articles {
+  width: 80%;
+  margin: 20px 0px;
+  background-color: white;
+}
+
+.article-title {
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #504741;
+  padding: 25px 25px 15px 25px;
+}
+
+.article-date {
+  color: #999999;
+  font-size: 0.9em;
+  padding-left: 25px;
+}
+
+.article-body {
+  color: #666666;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 25px;
+}
+
+.article-img {
+  padding: 25px;
 }
