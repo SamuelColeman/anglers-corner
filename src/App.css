@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #998871;
+  background-image: url('./images/default-pattern.png');
   min-height: 100vh;
   min-width: 100%;
 }
@@ -16,38 +16,47 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 8px solid white;
-  background-image: url('./images/trout_four.jpg');
+  border: 9px solid white;
+  background-image: url('./images/default-header.jpg');
+  min-height: 195px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  background-size: 100% 100vh;
+  /* background-position: center; */
+  background-size: 100%;
 }
 
 .app-title {
-  padding: 10px;
+  padding: 50px 0px 10px 0px;
   color: white;
-  font-size: 25px;
+  font-size: 45px;
+  font-weight: 800;
 }
 
 .app-description {
-  padding-bottom: 10px;
-  color: white;
+  color: #CBC8C6;
+  font-size: 25px;
 }
 
 .nav {
   display: flex;
   justify-content: center;
   background-color: #504741;
+  min-height: 50px;
 }
 
 .nav-btn {
   background-color: #504741;
   border: none;
-  color: white;
+  color: #CBC8C6;
+  font-size: 12px;
 }
 
 .nav-btn:hover {
-  background-color: white;
-  color: #504741;
+  background-color: #302B27;
+  color: white;
+  cursor: pointer;
+}
+
+#nav-btn {
+  border-right: 1px solid #302B27;
 }

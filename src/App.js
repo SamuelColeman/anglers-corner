@@ -11,8 +11,8 @@ function App() {
           <div className="app-description">Out-for-Trout</div>
         </div>
         <form className="nav">
-          <button className="nav-btn" type="button">About</button>
-          <button className="nav-btn" type="button">Contact</button>
+          <button id="nav-btn" className="nav-btn" type="button">ABOUT</button>
+          <button className="nav-btn" type="button">CONTACT</button>
         </form>
       </header>
     </div>
