@@ -82,7 +82,8 @@
 }
 
 .article-title:hover {
-
+  color: #669900;
+  cursor: pointer;
 }
 
 .article-date {
